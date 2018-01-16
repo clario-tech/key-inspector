@@ -5,7 +5,7 @@ Kromtech Key Inspector is a fast and easy to use tool for checking your AWS and 
 
 **Compatible** with Linux, MacOS and Windows(partially), python 2.7 and 3.
 ## What it does
- - Checks permissions on your AWS and RSA/OpenSSH keys.
+ - Checks permissions of AWS and RSA/OpenSSH keys on your filesystem.
  - For every key file found, checks if it is encypted.
  
  ## How to use
