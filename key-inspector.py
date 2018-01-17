@@ -57,7 +57,7 @@ def print_aws_verdict(rights_verdict, aws_storage_path):
     :param aws_storage_path: Path to AWS folder.
     """
     if rights_verdict:
-        colour_print("Your AWS key storage is insecure!", "red")
+        colour_print("Your AWS key storage isn’t secure.", "red")
         colour_print("Run `chmod 600 " + aws_storage_path + "credentials` to fix this issue.", "red")
     else:
         colour_print("Your AWS key storage is secure!", "green")
@@ -116,16 +116,16 @@ def print_ssh_verdict(unencrypted_list, wrong_rights_list):
     :param wrong_rights_list: List with file with wrong rights.
     """
     if len(unencrypted_list) > 0 or len(wrong_rights_list) > 0:
-        colour_print("Your SSH key storage is insecure!", "red")
+        colour_print("Your SSH key storage isn’t insecure!", "red")
         if len(unencrypted_list) > 0:
             colour_print(
-                "Some of your key files are unencrypted. Visit kromtech[LINK] to know hot to fix that.", "red")
-            colour_print("Following files are unencrypted:", "red")
+                "Some of your key files are unencrypted. Visit Kromtech blog[LINK] to find how to fix this..", "red")
+            colour_print("The following files are unencrypted:", "red")
             for unencrypted_file in unencrypted_list:
                 colour_print(unencrypted_file, "red")
         if len(wrong_rights_list) > 0:
             colour_print(
-                "Some of your files have unneeded permissions set. This means that they might be accessed by any process started with your user's rights", "red")
+                "Some of your files have unnecessary permissions. This means that they might be accessed by any process launched with your user account", "red")
             file_names = ""
             for file_name in wrong_rights_list:
                 file_names = file_names + " " + file_name
