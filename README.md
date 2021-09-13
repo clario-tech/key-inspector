@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="Key Inspector" src="https://github.com/kromtech/key-inspector/raw/logo/logo.png" width="400"/>
+   <img alt="Key Inspector" src="https://github.com/clario-tech/key-inspector/raw/logo/logo.png" width="400"/>
 </p>
 Kromtech Key Inspector is a fast and easy to use tool for checking your AWS and SSH Keys for presence of encryption and inappropriate file permissions.
 
@@ -20,5 +20,5 @@ Kromtech Key Inspector is a fast and easy to use tool for checking your AWS and 
  `python key-inspector.py`
 
  <p align="center">
-   <img alt="Key Inspector" src="https://github.com/kromtech/key-inspector/blob/logo/screen.png" width="800"/>
+   <img alt="Key Inspector" src="https://github.com/clario-tech/key-inspector/blob/logo/screen.png" width="800"/>
 </p>
