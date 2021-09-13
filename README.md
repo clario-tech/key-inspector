@@ -11,7 +11,7 @@ Kromtech Key Inspector is a fast and easy to use tool for checking your AWS and 
  ## How to use
  Clone repositoty to your PC:
  
- `git clone https://github.com/kromtech/key-inspector`
+ `git clone https://github.com/clario-tech/key-inspector`
  
  Go to key-inspector directory and run it:
  
